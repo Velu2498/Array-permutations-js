@@ -5,7 +5,12 @@ const array4=["india","us"]
 const array5=["me"]
 
 //with reduce function
-
+/*
+[head, ...[headTail, ...tailTail]] => array destructring
+ex:[a, b, ...rest] = [10, 20, 30, 40, 50];
+console.log(rest);
+expected output: Array [30,40,50]
+*/
 const combine = ([head, ...[headTail, ...tailTail]]) => {
     // console.log(head)
     // console.log(headTail)
